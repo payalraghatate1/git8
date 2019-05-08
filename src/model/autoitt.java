@@ -17,7 +17,7 @@ public class autoitt {
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//input[@type='file']")).click();
 		Runtime.getRuntime().exec("E:\\seleniumhtml\\autoitt.exe");
-		
+		System.out.println("vedantttttt....");
 
 	}
 
